@@ -1,8 +1,11 @@
 import React from 'react'
+import Counter from './components/Counter'
 
 const App = () => {
   return (
-    <div className='bg-red-400'>App</div>
+    <>
+      <Counter/>
+    </>
   )
 }
 
