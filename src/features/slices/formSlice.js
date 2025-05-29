@@ -69,4 +69,4 @@ const formSlice = createSlice({
 })
 
 export default formSlice.reducer;
-export const {setFirstName, setLastName, setGender, setPhone, setEmail, setAddress, setZipCode, setFirstNameError, setLastNameError, setGenderError} = formSlice.actions;
+export const {setFirstName, setLastName, setGender, setPhone, setEmail, setAddress, setZipCode, setFirstNameError, setLastNameError, setGenderError, setPhoneError, setEmailError, setAddressError, setZipCodeError} = formSlice.actions;
