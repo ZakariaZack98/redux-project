@@ -4,7 +4,7 @@ const initialState = {
   firstName: '',
   lastName: '',
   gender: '',
-  phone: null,
+  phone: '',
   email: '',
   address: '',
   zipCode: '',

@@ -100,7 +100,7 @@ const NameGender = () => {
           !isFormValid ? "opacity-50" : ""
         }`}
         disabled={!isFormValid}
-        onClick={() => navigate('/contact')}
+        onClick={() => navigate('/step-2')}
         >
         Next
       </button>

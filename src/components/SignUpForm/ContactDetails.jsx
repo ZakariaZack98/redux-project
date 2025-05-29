@@ -66,7 +66,7 @@ const ContactDetails = () => {
           !isFormValid ? "opacity-50" : ""
         }`}
         disabled={!isFormValid}
-        onClick={() => navigate('/address')}
+        onClick={() => navigate('/step-3')}
         >
         Next
       </button>
